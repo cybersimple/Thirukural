@@ -1,3 +1,3 @@
 # Thirukural
 
-thirukural-samsu.netlify.app
+https://thirukural-samsu.netlify.app/
