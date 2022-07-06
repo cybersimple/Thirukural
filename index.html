@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Thirukural 📚</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="d-flex justify-content-around align-items-center">
+      <div>
+        <h1 class="text-center">திருக்குறள் 📚</h1>
+      </div>
+      <div id="timenow" onclick="timeNow()">
+      </div>
+    </div>
+    </nav>
+    
+    <div class="container">
+
+      <div class="input-group mb-4 w-50 float-center my-3 w-75">
+        <input type="text" class="form-control text-center inputNo " placeholder="Type Number 1 to 1330" aria-label="KuralNo"
+          aria-describedby="button-addon2" id="stance-no"
+          title="the the stance no (1 to 1330) to get particular thirukural" />
+
+        <button class="btn btn-outline-secondary w-25 " type="button" id="button-addon2"
+          onclick="getValue()">Click</button>
+
+      </div>
+
+      
+
+    <div></div>
+
+    <br />
+
+    <div class="container">
+      <div class="card text-center">
+        <div class="card-header"></div>
+        <div class="card-body">
+          <h5 class="card-title text-center fw-bold mb-3"></h5>
+          <h5 class="card-title mb-3"></h5>
+          <p class="card-text text-center"></p>
+        </div>
+        <div class="card-footer text-muted"></div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between p-4 m-4">
+      <div class="col-6">
+        <button onclick="randomBtn()" class="btn btn-outline-secondary" type="button">🔂</button>
+      </div>
+      <div class="">
+        <input type="checkbox" name="check" id="check-for-english" value="" onclick="checkbox()"
+          onchange="checkbox()" />
+        <label for="flexcheckDefault" class="form-check-label">
+          check for English Translation
+        </label>
+      </div>
+    </div>
+    <footer>
+      Cy63rs1mple_Samsutheen &copy;2022
+    </footer>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
